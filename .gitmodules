@@ -1,0 +1,9 @@
+[submodule "themes/hugo-theme-hello-friend-ng"]
+	path = themes/hugo-theme-hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "themes/hugo-PaperMod"]
+	path = themes/hugo-PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/aether"]
+	path = themes/aether
+	url = https://github.com/josephhutch/aether.git
