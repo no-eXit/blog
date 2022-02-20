@@ -39,7 +39,7 @@ paginate     = 10
 
     [languages.en.params.logo]
       logoText = "hello friend ng"
-      logoHomeLink = "/"
+      logoHomeLink = "/blog/"
     # or
     #
     # path = "/img/your-example-logo.svg"
