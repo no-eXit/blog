@@ -1,7 +1,7 @@
 ---
 title: "My Third Post"
 date: 2022-02-20T15:33:32+01:00
-draft: true
+draft: false
 
 author: "no-eXit"
 tags: ["code"]
