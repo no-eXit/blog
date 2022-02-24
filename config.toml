@@ -1,5 +1,5 @@
 # baseurl = "localhost"
-baseurl = "https://no-exit.github.io/blog/"
+baseurl = "https://no-exit.github.io/Pile-of-Thoughts/"
 title = "Weblog"
 languageCode = "de-de"
 theme = "hello-friend-ng"
@@ -30,7 +30,8 @@ paginate = 10
 
 	[params.logo]
 		logoText = "home"
-		logoHomeLink = "https://no-exit.github.io/blog/"
+		logoHomeLink = "/"
+		logoCursorColor = "#FFD866"
 
 [taxonomies]
 	category = "blog"
