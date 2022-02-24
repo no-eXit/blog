@@ -1,9 +1,12 @@
 # baseurl = "localhost"
-baseurl = "https://no-exit.github.io/Pile-of-Thoughts/"
-title = "Weblog"
+baseurl = "https://no-exit.github.io/Pile-of-Thoughts"
+title = "Pile of Thoughts"
 languageCode = "de-de"
 theme = "hello-friend-ng"
 paginate = 10
+
+[author]
+  name = "no-exit"
 
 [params]
 	dateform = "Jan 2, 2006"
@@ -11,8 +14,9 @@ paginate = 10
 	dateformNum = "2006-01-02"
 	dateformNumTime = "2006-01-02 15:04"
 
+	subtitle = "Ein Weblog von no-exit"
 	# Subtitle for home
-	homeSubtitle = "von no-exit"
+	homeSubtitle = "Ein Weblog von no-exit"
 
 	# Set disableReadOtherPosts to true in order to hide the links to other posts.
 	disableReadOtherPosts = false
@@ -25,13 +29,25 @@ paginate = 10
 	keywords = "homepage, blog"
 	images = [""]
 
-	subtitle = "no-exit"
 	readOtherPosts = "Andere Posts lesen"
 
 	[params.logo]
-		logoText = "home"
+		logoText = "Pile of Thoughts"
 		logoHomeLink = "/"
 		logoCursorColor = "#FFD866"
+
+	[params.footer]
+		trademark = true
+		rss = true
+		copyright = true
+		author = true
+
+		topText = ["test"]
+		bottomText = [
+			"Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+			"Theme: <a href=\"https://github.com/rhazdon/hugo-theme-hello-friend-ng\">Hello Friend NG</a>",
+			"Hosted on Github Pages"
+		]
 
 [taxonomies]
 	category = "blog"
@@ -43,11 +59,11 @@ paginate = 10
 [[menu.main]]
 	identifier = "posts"
 	name = "Posts"
+	url = "posts/"
 	weight = 1
-	url = "https://no-exit.github.io/blog/posts/"
 
 [[menu.main]]
 	identifier = "about"
 	name = "About"
+	url = "/about"
 	weight = 2
-	url = "https://no-exit.github.io/blog/about/"
