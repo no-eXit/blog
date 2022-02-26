@@ -1,4 +1,4 @@
-# baseurl = "localhost"
+#baseurl = "localhost/Pile-of-Thoughts"
 baseurl = "https://no-exit.github.io/Pile-of-Thoughts"
 title = "Pile of Thoughts"
 languageCode = "de-de"
@@ -9,8 +9,8 @@ paginate = 10
   name = "no-exit"
 
 [params]
-	dateform = "Jan 2, 2006"
-	dateformShort = "Jan 2"
+	dateform = "2. Jan 2006"
+	dateformShort = "2. Jan"
 	dateformNum = "2006-01-02"
 	dateformNumTime = "2006-01-02 15:04"
 
@@ -33,20 +33,17 @@ paginate = 10
 
 	[params.logo]
 		logoText = "Pile of Thoughts"
-		logoHomeLink = "/"
+		logoHomeLink = "/Pile-of-Thoughts/"
 		logoCursorColor = "#FFD866"
 
 	[params.footer]
-		trademark = true
-		rss = true
-		copyright = true
-		author = true
+		# author = true
 
-		topText = ["test"]
+		topText = []
 		bottomText = [
 			"Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-			"Theme: <a href=\"https://github.com/rhazdon/hugo-theme-hello-friend-ng\">Hello Friend NG</a>",
-			"Hosted on Github Pages"
+			"Themed with <a href=\"https://github.com/rhazdon/hugo-theme-hello-friend-ng\">Hello Friend NG</a>",
+			"Hosted on <a href=\"https://github.com/\">GitHub</a>"
 		]
 
 [taxonomies]
@@ -65,5 +62,5 @@ paginate = 10
 [[menu.main]]
 	identifier = "about"
 	name = "About"
-	url = "/about"
+	url = "about"
 	weight = 2
