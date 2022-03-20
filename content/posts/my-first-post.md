@@ -1,6 +1,8 @@
 ---
 title: "My First Post"
-date: 2022-02-20T15:27:27+01:00
+date: 2022-02-20
+description: "this is a description"
+tags: ["a", "b"]
 draft: false
 ---
 
